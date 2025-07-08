@@ -1,7 +1,6 @@
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { SupabaseClient } from '@supabase/supabase-js';
-import { SupabaseVectorStore } from "@langchain/community/vectorstores/supabase";
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import {  ChatOpenAI } from "@langchain/openai";
 import {PromptTemplate} from "@langchain/core/prompts";
 import { StringOutputParser } from '@langchain/core/output_parsers';
 import { retriever } from './utils/retriever'

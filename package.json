@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@langchain/community": "^0.3.47",
-    "@langchain/core": "^0.3.61",
-    "@langchain/openai": "^0.5.16",
-    "@supabase/supabase-js": "^2.50.2"
-  }
-}
